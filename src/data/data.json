@@ -1,0 +1,116 @@
+{
+    "header": {
+      "image": {
+        "src": "../Banner.jpg",
+        "alt": "banner",
+        "name": "Banner.jpg"
+      }
+    },
+    "content": {
+      "title": "Learn Java",
+      "description": "Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. As of 2019, 88% market share of all smartphones run on Android, the mobile operating system written in Java. Knowing Java opens a great deal of doors for you as a"
+    },
+    "news": [
+      {
+        "title": "Item1",
+        "image": {
+          "src": "../item1.png",
+          "alt": "Item1"
+        },
+        "description": "Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things"
+      },
+      {
+        "title": "Item2",
+        "image": {
+          "src": "../item2.png",
+          "alt": "Item2"
+        },
+        "description": "Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things"
+      }
+    ],
+    "contact": {
+        "title": "Student Form",
+        "fields": {
+            "item1":{
+              "label": {
+                  "lableName":{
+                      "htmlFor":"Name",
+                      "title": "Name",
+                      "required":"*"
+                  }
+              },
+              "name": {
+                  "type":"text" ,
+                  "name":"name" ,
+                  "id":"name",
+                  "placeholder":"Michael"
+              }
+            },
+            "item2":{
+              "label": {
+                  "lableEmail":{
+                      "htmlFor":"email",
+                      "title": "Email",
+                      "required":"*"
+                 }
+              },
+              "email": {
+                  "type":"text" ,
+                  "name":"email" ,
+                  "id":"email",
+                  "placeholder" : "youremail@gmail.com"
+              }
+            },
+            "item3":{
+              "label": {
+                  "lablePhone":{
+                      "htmlFor":"phone",
+                      "title": "Phone",
+                      "required":"*"
+                  }
+              },
+              "phone": {
+                  "type":"tel" ,
+                  "name":"phone" ,
+                  "id":"phone",
+                  "placeholder" : "098000xxx"
+                }
+            },
+            "item4":{
+              "label": {
+                  "lableMessage":{
+                      "htmlFor":"message",
+                      "title":"message",
+                      "required":"*"
+                  }
+              },
+                "message": {
+                  "type":"",
+                  "name":"Message" ,
+                  "id":"Message",
+                  "placeholder" : "message....."
+                }
+            }
+          },
+        "button": {
+            "htmlFor": "button",
+            "type": "button",
+            "title": "Submit"
+        }
+      },
+    "footer": {
+      "description": "First defined in the Scalable Vector Graphics (SVG) 1.0",
+      "images": [
+        {
+          "href": "https://www.instagram.com/",
+          "src": "../instagram.jpg",
+          "alt" : "instagram"
+        },
+        {
+            "href": "https://www.facebook.com/",
+            "src": "../facebook.jpg",
+            "alt" : "facebock"
+        }
+      ]
+    }
+  }
